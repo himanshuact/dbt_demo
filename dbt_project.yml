@@ -1,7 +1,11 @@
 name: Analytics
 version: 1.0
 config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'default'
  
+# These configurations specify where dbt should look for different types of files. 
 
 # Paths
 model-paths: ["models"]
@@ -55,3 +59,4 @@ quoting:
   database: false
   schema: false
   identifier: false
+
